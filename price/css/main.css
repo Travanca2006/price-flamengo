@@ -1,0 +1,31 @@
+.superior{
+    padding-right: 1.5rem;
+    padding-block: 2rem;
+    border-radius: 0.3125rem 0.3125rem 0 0 ;
+    background-color: white;
+}
+
+.superior p:nth-of-type(1){
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--Bright-Yellow);
+    margin-bottom: 1rem;
+}
+
+.superior p:nth-child(2){
+    line-height: 1.625rem;
+    color: var(--grayish-blue);
+    font-size: 0.875rem;
+}
+
+.esquerda{
+    background-color: cyan;
+    padding-inline: 1.5rem;
+}
+
+.esquerda p:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
