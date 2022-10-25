@@ -2,44 +2,44 @@
     .inferior div{
         display: flex;
     }
-}
-
-.direita .esquerda{
-    width: max-content;
-}
-
-main{
-    width: 40.625rem;
-    padding: 0%;
-}
-
-body{
-    height: min-content;
+    .direita, .esquerda{
+        width: 100%;
+    }
     
+    main{
+        width: 40rem;
+        padding: 0%;
+    }
+    
+    body{
+        min-height: 100vh;
+        
+    }
+    
+    .superior div{
+        border-radius: 0.5rem;
+        padding: 2.5rem;
+    }
+    
+    h1{
+        font-size: 1.5rem;
+    }
+    
+    .superior div :last-child{
+        font-size: 1.125rem;
+    }
+    
+    .superior div :first-child{
+        font-size: 1rem;
+    }
+    
+    .esquerda{
+        border-bottom-right-radius: 0.5rem;
+    }
+    
+    .direita{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+    }
 }
 
-.superior div{
-    border-radius: 0.5rem;
-    padding: 2.5rem;
-}
-
-h1{
-    font-size: 1.5rem;
-}
-
-.superior div :last-child{
-    font-size: 1.125rem;
-}
-
-.superior div :first-child{
-    font-size: 1rem;
-}
-
-.esquerda{
-    border-bottom-right-radius: 0.5rem;
-}
-
-.direita{
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0.5rem;
-}
