@@ -5,14 +5,14 @@
     background-color: white;
 }
 
-.superior p:nth-of-type(1){
+.superior div p:nth-of-type(1){
     font-weight: 700;
     line-height: 1.25rem;
     color: var(--Bright-Yellow);
     margin-bottom: 1rem;
 }
 
-.superior p:nth-child(2){
+.superior div p:nth-child(2){
     line-height: 1.625rem;
     color: var(--grayish-blue);
     font-size: 0.875rem;
@@ -23,9 +23,53 @@
     padding-inline: 1.5rem;
 }
 
-.esquerda p:nth-of-type(1){
+.esquerda div p:nth-of-type(1){
     color: white;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
+}
+
+.esquerda div p:nth-of-type(2){
+    color: white;
+    opacity: 0.5;
+}
+
+.esquerda div {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda p{
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button{
+
+    font-weight: 1rem;
+    width: max-content;
+    color: white;
+    font-weight: 1rem;
+    line-height: 1.125rem;
+    border: 0;
+    background-color: var(--Bright-Yellow);
+    border-radius: 0.3125rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011)
+}
+
+.direita{
+    background-color: var(--light-cyan);
+    padding-block: 1.5rem;
+    border-radius: 0.3125rem;
+}
+
+.direita p{
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
 }
